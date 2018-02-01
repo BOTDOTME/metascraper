@@ -24,6 +24,8 @@ module.exports = () => ({
     wrap($ => $('meta[property="og:image:secure_url"]').attr('content')),
     wrap($ => $('meta[property="og:image:url"]').attr('content')),
     wrap($ => $('meta[property="og:image"]').attr('content')),
+    wrap($ => $('meta[name="og:image:url"]').attr('content')),
+    wrap($ => $('meta[name="og:image"]').attr('content')),
     wrap($ => $('meta[name="twitter:image:src"]').attr('content')),
     wrap($ => $('meta[name="twitter:image"]').attr('content')),
     wrap($ => $('meta[name="sailthru.image.thumb"]').attr('content')),
